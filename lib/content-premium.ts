@@ -253,7 +253,7 @@ export const premiumContent = {
       location: "Vysoke Tatry, Slovensko",
       category: "Pohostinstvo",
       area: "180 sqm",
-      area: "2023",
+      year: "2023",
       system: "Hydroponicke systemy",
       description: "Interierove zive steny pre spa a wellness zariadenia. Hydroponicka technologia zabezpecuje optimalne zdravie rastlin v kontrolovanom vnutornom prostredi.",
       challenge: "Vysoka vlhkost prostredia a kolisave vnutorne teploty vyzadovali specializovany vyber rastlin a navrh systemu.",

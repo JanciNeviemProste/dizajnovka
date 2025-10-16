@@ -10,10 +10,10 @@ export function FeaturedProjects() {
         {/* Section Header */}
         <div className="mx-auto max-w-3xl text-center mb-20">
           <h2 className="font-heading text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl mb-6">
-            Featured projects
+            Vybrane projekty
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Discover how we've transformed buildings across Europe with innovative green façade systems. Each project demonstrates our commitment to quality, sustainability, and design excellence.
+            Objavte, ako sme transformovali budovy napriec Europou inovativnymi systemami zelenych fasad. Kazdy projekt dokazuje nas zavazok ku kvalite, udrzatelnosti a dizajnovej excelencie.
           </p>
         </div>
       </div>
@@ -89,7 +89,7 @@ export function FeaturedProjects() {
                             asChild
                           >
                             <Link href={`/projekty/${project.id}`}>
-                              View project details
+                              Zobrazit detaily projektu
                               <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover/btn:translate-x-1" />
                             </Link>
                           </Button>
@@ -104,17 +104,17 @@ export function FeaturedProjects() {
                           <div className="text-2xl font-bold text-white font-heading mb-1">
                             {project.area}
                           </div>
-                          <div className="text-xs text-white/60">Coverage area</div>
+                          <div className="text-xs text-white/60">Pokryta plocha</div>
                         </div>
                         <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg p-4">
                           <div className="text-2xl font-bold text-white font-heading mb-1">
                             {project.year}
                           </div>
-                          <div className="text-xs text-white/60">Completed</div>
+                          <div className="text-xs text-white/60">Dokoncene</div>
                         </div>
                         <div className="col-span-2 bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg p-4">
                           <div className="text-sm font-medium text-white mb-1">
-                            System type
+                            Typ systemu
                           </div>
                           <div className="text-xs text-white/60">{project.system}</div>
                         </div>
@@ -142,7 +142,7 @@ export function FeaturedProjects() {
             asChild
           >
             <Link href="/projekty">
-              Explore all projects
+              Prezriet vsetky projekty
               <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
             </Link>
           </Button>

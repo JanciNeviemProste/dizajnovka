@@ -10,10 +10,10 @@ export function BenefitsPremium() {
         {/* Section Header */}
         <div className="mx-auto max-w-3xl text-center mb-20">
           <h2 className="font-heading text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl mb-6">
-            Environmental benefits
+            Environmentalne vyhody
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Green façade systems deliver measurable improvements across multiple performance indicators. Our installations contribute to healthier buildings and urban environments.
+            Systemy zelenych fasad poskytuju meratelne zlepsenia napriec viacerymi vykonnostnymi ukazovatelmi. Nase instalacie prispievaju k zdravsim budovam a mestskemu prostredu.
           </p>
         </div>
 
@@ -62,28 +62,28 @@ export function BenefitsPremium() {
         {/* Bottom Stats Row */}
         <div className="mt-20 grid gap-8 sm:grid-cols-3 lg:grid-cols-6">
           <div className="text-center">
-            <div className="text-4xl font-bold text-forest-600 dark:text-forest-400 font-heading mb-2">-12°C</div>
-            <div className="text-sm text-muted-foreground">Façade cooling</div>
+            <div className="text-4xl font-bold text-forest-600 dark:text-forest-400 font-heading mb-2">-12C</div>
+            <div className="text-sm text-muted-foreground">Chladenie fasady</div>
           </div>
           <div className="text-center">
             <div className="text-4xl font-bold text-forest-600 dark:text-forest-400 font-heading mb-2">60%</div>
-            <div className="text-sm text-muted-foreground">Water savings</div>
+            <div className="text-sm text-muted-foreground">Uspora vody</div>
           </div>
           <div className="text-center">
             <div className="text-4xl font-bold text-forest-600 dark:text-forest-400 font-heading mb-2">20+</div>
-            <div className="text-sm text-muted-foreground">LEED points</div>
+            <div className="text-sm text-muted-foreground">LEED body</div>
           </div>
           <div className="text-center">
             <div className="text-4xl font-bold text-forest-600 dark:text-forest-400 font-heading mb-2">30%</div>
-            <div className="text-sm text-muted-foreground">Energy reduction</div>
+            <div className="text-sm text-muted-foreground">Znizenie spotreby</div>
           </div>
           <div className="text-center">
             <div className="text-4xl font-bold text-forest-600 dark:text-forest-400 font-heading mb-2">8dB</div>
-            <div className="text-sm text-muted-foreground">Noise reduction</div>
+            <div className="text-sm text-muted-foreground">Znizenie hluku</div>
           </div>
           <div className="text-center">
             <div className="text-4xl font-bold text-forest-600 dark:text-forest-400 font-heading mb-2">25+</div>
-            <div className="text-sm text-muted-foreground">Years lifespan</div>
+            <div className="text-sm text-muted-foreground">Rokov zivotnost</div>
           </div>
         </div>
       </div>

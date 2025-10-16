@@ -11,10 +11,10 @@ export function SystemsPremium() {
         {/* Section Header */}
         <div className="mx-auto max-w-3xl text-center mb-20">
           <h2 className="font-heading text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl mb-6">
-            Green façade systems
+            Systemy zelenych fasad
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            We offer comprehensive vertical greening solutions designed for different building types, climates, and performance requirements. Each system is engineered for long-term reliability and low maintenance.
+            Ponukame komplexne vertikalne ozelenovacie riesenia navrhnte pre rozne typy budov, klimy a vykonnostne poziadavky. Kazdy system je navrhnuty pre dlhodobu spolahlvost a nizku udrzbu.
           </p>
         </div>
 
@@ -52,11 +52,11 @@ export function SystemsPremium() {
                     <div className="transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
                       <div className="grid grid-cols-2 gap-3 mt-4">
                         <div className="bg-white/10 backdrop-blur-sm rounded-lg px-3 py-2">
-                          <div className="text-white/60 text-xs mb-1">Weight</div>
+                          <div className="text-white/60 text-xs mb-1">Hmotnost</div>
                           <div className="text-white text-sm font-medium">{system.specifications.weight}</div>
                         </div>
                         <div className="bg-white/10 backdrop-blur-sm rounded-lg px-3 py-2">
-                          <div className="text-white/60 text-xs mb-1">Lifespan</div>
+                          <div className="text-white/60 text-xs mb-1">Zivotnost</div>
                           <div className="text-white text-sm font-medium">{system.specifications.lifespan}</div>
                         </div>
                       </div>
@@ -84,7 +84,7 @@ export function SystemsPremium() {
 
                 {/* Plants Tags */}
                 <div className="mb-6">
-                  <div className="text-xs font-medium text-muted-foreground mb-3">Suitable plants</div>
+                  <div className="text-xs font-medium text-muted-foreground mb-3">Vhodne rastliny</div>
                   <div className="flex flex-wrap gap-2">
                     {system.plants.slice(0, 4).map((plant, i) => (
                       <span
@@ -109,7 +109,7 @@ export function SystemsPremium() {
                   asChild
                 >
                   <Link href={`/systemy#${system.id}`}>
-                    Technical specifications
+                    Technicke specifikacie
                     <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover/btn:translate-x-1" />
                   </Link>
                 </Button>
@@ -126,7 +126,7 @@ export function SystemsPremium() {
             asChild
           >
             <Link href="/systemy">
-              Compare all systems
+              Porovnat vsetky systemy
               <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
             </Link>
           </Button>

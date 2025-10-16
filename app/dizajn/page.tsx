@@ -9,8 +9,8 @@ import { TestimonialsDesign } from "@/components/sections/testimonials-design"
 import { CTADesign } from "@/components/sections/cta-design"
 
 export const metadata: Metadata = {
-  title: "Green Façades - Premium Systems",
-  description: "Professional green façade systems for sustainable architecture. Design, installation, and maintenance by certified specialists with 15+ years of expertise.",
+  title: "Zelene fasady - Premium systemy",
+  description: "Profesionalne systemy zelenych fasad pre udrzatelnu architekturu. Navrh, instalacia a udrzba certifikovanymi specialistami s 15+ rokmi expertiz.",
 }
 
 export default function DesignPage() {

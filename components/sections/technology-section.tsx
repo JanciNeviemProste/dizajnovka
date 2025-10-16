@@ -66,8 +66,8 @@ export function TechnologySection() {
                 <div className="absolute inset-0 flex items-center justify-center p-12">
                   <div className="text-center text-white">
                     <div className="text-7xl font-bold font-heading mb-4">98%</div>
-                    <div className="text-lg">System reliability</div>
-                    <div className="text-sm opacity-80 mt-2">Based on 15+ years of installations</div>
+                    <div className="text-lg">Spolahlvost systemu</div>
+                    <div className="text-sm opacity-80 mt-2">Na zaklade 15+ rokov instalacii</div>
                   </div>
                 </div>
 
@@ -80,11 +80,11 @@ export function TechnologySection() {
                     </div>
                     <div>
                       <div className="text-2xl font-bold font-heading">60%</div>
-                      <div className="text-xs opacity-80">Water savings</div>
+                      <div className="text-xs opacity-80">Uspora vody</div>
                     </div>
                     <div>
                       <div className="text-2xl font-bold font-heading">25+</div>
-                      <div className="text-xs opacity-80">Years lifespan</div>
+                      <div className="text-xs opacity-80">Rokov zivotnost</div>
                     </div>
                   </div>
                 </div>
@@ -93,7 +93,7 @@ export function TechnologySection() {
 
             {/* Floating Card - Certifications */}
             <Card className="absolute -bottom-6 -left-6 w-48 border-0 shadow-premium bg-white dark:bg-gray-950 p-4 animate-slide-in-left" style={{ animationDelay: "0.4s" }}>
-              <div className="text-xs text-muted-foreground mb-2">Certified by</div>
+              <div className="text-xs text-muted-foreground mb-2">Certifikovane</div>
               <div className="space-y-2">
                 {premiumContent.certifications.slice(0, 2).map((cert, i) => (
                   <div key={i} className="flex items-center gap-2">
@@ -110,7 +110,7 @@ export function TechnologySection() {
             <div className="absolute -top-4 -right-4 bg-warmth-500 text-white rounded-full p-4 shadow-premium animate-scale-in" style={{ animationDelay: "0.3s" }}>
               <div className="text-center">
                 <div className="text-2xl font-bold font-heading">15+</div>
-                <div className="text-xs">Years</div>
+                <div className="text-xs">Rokov</div>
               </div>
             </div>
           </div>

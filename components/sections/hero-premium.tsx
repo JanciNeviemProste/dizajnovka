@@ -102,9 +102,9 @@ export function HeroPremium() {
 
                 {/* Card Overlay Info */}
                 <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-forest-900/90 to-transparent">
-                  <div className="text-warmth-400 text-sm font-medium mb-1">Featured Project</div>
-                  <div className="text-white text-lg font-heading font-semibold">NBS Business Center</div>
-                  <div className="text-white/70 text-sm">Bratislava, Slovakia</div>
+                  <div className="text-warmth-400 text-sm font-medium mb-1">Vybrany projekt</div>
+                  <div className="text-white text-lg font-heading font-semibold">{premiumContent.featuredProjects[0].title}</div>
+                  <div className="text-white/70 text-sm">{premiumContent.featuredProjects[0].location}</div>
                 </div>
               </div>
             </div>
