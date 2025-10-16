@@ -1,11 +1,20 @@
 import type { Metadata } from "next"
-import { Inter } from "next/font/google"
+import { Inter, Outfit } from "next/font/google"
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { NavBar } from "@/components/layout/navbar"
 import { Footer } from "@/components/layout/footer"
 
-const inter = Inter({ subsets: ["latin"] })
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+})
+
+const outfit = Outfit({
+  subsets: ["latin"],
+  variable: "--font-outfit",
+  weight: ["400", "600", "700"],
+})
 
 export const metadata: Metadata = {
   title: {
@@ -68,7 +77,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="sk" suppressHydrationWarning>
-      <body className={inter.className}>
+      <body className={`${inter.variable} ${outfit.variable} font-sans`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="light"

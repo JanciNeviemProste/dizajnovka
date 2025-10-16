@@ -1,25 +1,27 @@
 import type { Metadata } from "next"
-import { HeroDesign } from "@/components/sections/hero-design"
-import { BenefitsDesign } from "@/components/sections/benefits-design"
+import { HeroPremium } from "@/components/sections/hero-premium"
+import { BenefitsPremium } from "@/components/sections/benefits-premium"
 import { ProcessSection } from "@/components/sections/process-section"
-import { SystemsDesign } from "@/components/sections/systems-design"
-import { PortfolioSection } from "@/components/sections/portfolio-section"
+import { SystemsPremium } from "@/components/sections/systems-premium"
+import { FeaturedProjects } from "@/components/sections/featured-projects"
+import { TechnologySection } from "@/components/sections/technology-section"
 import { TestimonialsDesign } from "@/components/sections/testimonials-design"
 import { CTADesign } from "@/components/sections/cta-design"
 
 export const metadata: Metadata = {
-  title: "Zelené fasády - Dizajnová verzia",
-  description: "Transformujeme budovy na živé ekosystémy. Špecializujeme sa na tvorbu zelených fasád, ktoré spájajú architektúru s prírodou.",
+  title: "Green Façades - Premium Systems",
+  description: "Professional green façade systems for sustainable architecture. Design, installation, and maintenance by certified specialists with 15+ years of expertise.",
 }
 
 export default function DesignPage() {
   return (
     <>
-      <HeroDesign />
-      <BenefitsDesign />
+      <HeroPremium />
+      <BenefitsPremium />
+      <FeaturedProjects />
+      <SystemsPremium />
       <ProcessSection />
-      <SystemsDesign />
-      <PortfolioSection />
+      <TechnologySection />
       <TestimonialsDesign />
       <CTADesign />
     </>
