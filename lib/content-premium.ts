@@ -115,7 +115,7 @@ export const premiumContent = {
       subtitle: "Pre-planted modules for immediate visual impact",
       description: "Prefabricated planting modules with integrated growing media and irrigation. Ideal for both interior and exterior applications requiring design flexibility and rapid installation.",
       specifications: {
-        weight: "35-60 kg/m²",
+        weight: "35-60 kg/sqm",
         depth: "150-200 mm",
         irrigation: "Automated drip system",
         maintenance: "Quarterly service",
@@ -137,7 +137,7 @@ export const premiumContent = {
       subtitle: "Traditional approach with modern engineering",
       description: "Support structures for climbing plants that establish natural vegetation layers over time. Lower installation costs and maintenance requirements make this suitable for large-scale facade greening.",
       specifications: {
-        weight: "10-30 kg/m²",
+        weight: "10-30 kg/sqm",
         depth: "300-600 mm clearance",
         irrigation: "Ground-based or drip",
         maintenance: "Bi-annual pruning",
@@ -159,7 +159,7 @@ export const premiumContent = {
       subtitle: "Soilless cultivation for challenging environments",
       description: "Advanced growing systems without traditional growing media. Optimized nutrient delivery and water efficiency. Suitable for complex geometries and interior applications where weight is critical.",
       specifications: {
-        weight: "25-40 kg/m²",
+        weight: "25-40 kg/sqm",
         depth: "100-150 mm",
         irrigation: "Recirculating hydroponics",
         maintenance: "Monthly system check",
@@ -181,7 +181,7 @@ export const premiumContent = {
       subtitle: "Habitat creation for urban wildlife",
       description: "Specialized systems designed to support pollinator populations and urban biodiversity. Native plant selection and nesting features create ecological corridors in built environments.",
       specifications: {
-        weight: "40-70 kg/m²",
+        weight: "40-70 kg/sqm",
         depth: "200-400 mm",
         irrigation: "Rain-fed with supplemental",
         maintenance: "Seasonal management",
@@ -205,7 +205,7 @@ export const premiumContent = {
       title: "NBS Business Center",
       location: "Bratislava, Slovakia",
       category: "Commercial",
-      area: "450 m²",
+      area: "450 sqm",
       year: "2023",
       system: "Modular living walls",
       description: "Comprehensive green facade installation for modern office complex. The modular system provides year-round greenery while contributing to BREEAM Excellent certification.",
@@ -213,7 +213,7 @@ export const premiumContent = {
       solution: "Wind-resistant planting design with reinforced mounting system. Automated irrigation with weather sensors optimizes water use.",
       results: [
         "BREEAM Excellent certification achieved",
-        "Façade temperature reduction of 12°C measured",
+        "Facade temperature reduction of 12C measured",
         "100% plant establishment success",
       ],
       image: "/images/project-nbs.jpg",
@@ -228,7 +228,7 @@ export const premiumContent = {
       title: "Riverside Residences",
       location: "Prague, Czech Republic",
       category: "Residential",
-      area: "320 m²",
+      area: "320 sqm",
       year: "2022",
       system: "Climbing green facades",
       description: "Traditional climbing plant system integrated with contemporary architecture. Native species selection enhances local biodiversity.",
@@ -251,7 +251,7 @@ export const premiumContent = {
       title: "Mountain Wellness Resort",
       location: "High Tatras, Slovakia",
       category: "Hospitality",
-      area: "180 m²",
+      area: "180 sqm",
       year: "2023",
       system: "Hydroponic systems",
       description: "Interior living walls for spa and wellness facilities. Hydroponic technology ensures optimal plant health in controlled indoor environment.",
@@ -274,7 +274,7 @@ export const premiumContent = {
   testimonials: [
     {
       id: 1,
-      name: "Ing. Peter Horváth",
+      name: "Ing. Peter Horvath",
       role: "Property Manager",
       company: "Business Park Bratislava",
       content: "The professional approach and attention to detail throughout the project exceeded our expectations. Our tenants consistently comment on the improved working environment.",
@@ -283,7 +283,7 @@ export const premiumContent = {
     },
     {
       id: 2,
-      name: "Arch. Jana Nováková",
+      name: "Arch. Jana Novakova",
       role: "Principal Architect",
       company: "Studio Architekti",
       content: "Their understanding of both horticultural and architectural requirements made collaboration seamless. The installation became a defining feature of our design.",
@@ -292,7 +292,7 @@ export const premiumContent = {
     },
     {
       id: 3,
-      name: "Mgr. Martin Kováč",
+      name: "Mgr. Martin Kovac",
       role: "Development Director",
       company: "Riverside Development",
       content: "Project delivered on schedule and within budget. The green facade has become the signature element of the development and a key marketing asset.",
