@@ -2,8 +2,8 @@
 
 export const premiumContent = {
   company: {
-    name: "Zelené fasády",
-    tagline: "Green façade systems for sustainable architecture",
+    name: "Zelene fasady",
+    tagline: "Green facade systems for sustainable architecture",
     description: "We design, install, and maintain living wall systems that integrate nature with modern architecture. With 15 years of expertise and Cradle-to-Cradle certified solutions.",
     headline: "Living architecture for modern buildings",
     subheadline: "Transforming urban spaces with sustainable vertical greening systems",
@@ -12,7 +12,7 @@ export const premiumContent = {
   hero: {
     title: "Living architecture for modern buildings",
     subtitle: "Sustainable vertical greening systems",
-    description: "We design and implement green façade systems that enhance biodiversity, improve air quality, and create healthier urban environments.",
+    description: "We design and implement green facade systems that enhance biodiversity, improve air quality, and create healthier urban environments.",
     cta: {
       primary: "Schedule consultation",
       secondary: "Explore projects",
@@ -38,7 +38,7 @@ export const premiumContent = {
     {
       icon: "Shield",
       title: "Building protection",
-      description: "Living façades protect building envelopes from weathering, UV radiation, and temperature fluctuations, extending structure lifespan.",
+      description: "Living facades protect building envelopes from weathering, UV radiation, and temperature fluctuations, extending structure lifespan.",
     },
   },
 
@@ -52,7 +52,7 @@ export const premiumContent = {
     {
       icon: "Sparkles",
       title: "Air quality improvement",
-      description: "Plants naturally filter particulate matter, absorb CO₂, and produce oxygen. Our systems contribute measurably to improved air quality in surrounding areas.",
+      description: "Plants naturally filter particulate matter, absorb CO2, and produce oxygen. Our systems contribute measurably to improved air quality in surrounding areas.",
       image: "/images/benefit-air.jpg",
     },
     {
@@ -133,9 +133,9 @@ export const premiumContent = {
     },
     {
       id: "climbing",
-      name: "Climbing green façades",
+      name: "Climbing green facades",
       subtitle: "Traditional approach with modern engineering",
-      description: "Support structures for climbing plants that establish natural vegetation layers over time. Lower installation costs and maintenance requirements make this suitable for large-scale façade greening.",
+      description: "Support structures for climbing plants that establish natural vegetation layers over time. Lower installation costs and maintenance requirements make this suitable for large-scale facade greening.",
       specifications: {
         weight: "10-30 kg/m²",
         depth: "300-600 mm clearance",
@@ -177,7 +177,7 @@ export const premiumContent = {
     },
     {
       id: "biodiverse",
-      name: "Biodiverse façades",
+      name: "Biodiverse facades",
       subtitle: "Habitat creation for urban wildlife",
       description: "Specialized systems designed to support pollinator populations and urban biodiversity. Native plant selection and nesting features create ecological corridors in built environments.",
       specifications: {
@@ -208,7 +208,7 @@ export const premiumContent = {
       area: "450 m²",
       year: "2023",
       system: "Modular living walls",
-      description: "Comprehensive green façade installation for modern office complex. The modular system provides year-round greenery while contributing to BREEAM Excellent certification.",
+      description: "Comprehensive green facade installation for modern office complex. The modular system provides year-round greenery while contributing to BREEAM Excellent certification.",
       challenge: "High wind exposure and urban heat island effect required careful plant selection and enhanced anchoring systems.",
       solution: "Wind-resistant planting design with reinforced mounting system. Automated irrigation with weather sensors optimizes water use.",
       results: [
@@ -230,7 +230,7 @@ export const premiumContent = {
       category: "Residential",
       area: "320 m²",
       year: "2022",
-      system: "Climbing green façades",
+      system: "Climbing green facades",
       description: "Traditional climbing plant system integrated with contemporary architecture. Native species selection enhances local biodiversity.",
       challenge: "Listed building constraints limited mounting options and required reversible installation methods.",
       solution: "Custom freestanding support structure with minimal building penetrations. Seasonal flowering sequence provides year-round interest.",
@@ -295,7 +295,7 @@ export const premiumContent = {
       name: "Mgr. Martin Kováč",
       role: "Development Director",
       company: "Riverside Development",
-      content: "Project delivered on schedule and within budget. The green façade has become the signature element of the development and a key marketing asset.",
+      content: "Project delivered on schedule and within budget. The green facade has become the signature element of the development and a key marketing asset.",
       avatar: "/images/avatar-kovac.jpg",
       rating: 5,
     },
@@ -304,7 +304,7 @@ export const premiumContent = {
   cta: {
     title: "Ready to transform your building?",
     subtitle: "Schedule a consultation to discuss your project",
-    description: "Our team provides comprehensive site assessment and preliminary design consultation at no obligation. We'll help determine the optimal green façade solution for your building.",
+    description: "Our team provides comprehensive site assessment and preliminary design consultation at no obligation. We'll help determine the optimal green facade solution for your building.",
     benefits: [
       "Complimentary site assessment",
       "Preliminary design concepts",
@@ -318,7 +318,7 @@ export const premiumContent = {
   },
 
   technology: {
-    title: "Advanced green façade technology",
+    title: "Advanced green facade technology",
     subtitle: "Engineered systems for long-term performance",
     description: "Our installations incorporate the latest advances in irrigation technology, growing media development, and plant science to ensure reliable, maintenance-efficient performance.",
     features: [
